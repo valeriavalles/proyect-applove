@@ -1,0 +1,111 @@
+header {
+    outline: red solid;
+    
+    
+}
+.texto {
+    outline: black solid;
+    position: relative;
+    width: 350px;
+    bottom: -40px;
+    right: -130px;
+
+}
+.texto>a {
+    margin: 20px;
+}
+.logo {
+    outline: green solid;
+    width:100px;
+    height: 100px;
+    position:relative;
+    right: -1080px;
+    margin-left: 20px;
+}
+.logo>img {
+    width: 90px;
+    height: 90px;
+}
+.imagen>img {
+    width: 1350px;
+}
+.frase {
+    outline: blue solid;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    bottom: 450px;
+    margin-left: 420px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.frase1 {
+    outline: black solid;
+    width: 800px;
+    height: 65px;
+    position: relative;
+    bottom: 420px;
+    margin-left:280px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+.frase2 {
+    outline: blue solid;
+    width: 600px;
+    height: 35px;
+    position: relative;
+    bottom: 420PX;
+    margin-left: 350PX;
+    color: white;
+}
+.frase3 {
+    outline: black solid;
+    width: 150px;
+    height: 45px;
+    position: relative;
+    bottom: 350px;
+    margin-left: 560px;
+
+    
+}
+button {
+    color: white;
+    background: green;
+    width: 150px;
+    height: 45px;
+}
+.rosado {
+    background: rgb(255, 138, 138);
+    width: 1350;
+    height: 650px;
+    position: relative;
+    bottom: 200px;
+    font-family: sans-serif;
+    color: white;
+}
+.rosado>.title-text {
+    outline: black solid;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    margin-left: 530px;
+    top: 100px;
+    font-size:40px;
+}
+.rosado>.parrafo-text {
+    outline: blue solid;
+    width: 600px;
+    height: 80px;
+    position: relative;
+    left: 350px;
+    top: 150px;
+
+}
+.rosado>.columna>img {
+    outline: black solid;
+    font-size: 30px;
+}
+   
