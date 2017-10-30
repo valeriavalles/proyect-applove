@@ -1,111 +1,86 @@
-header {
-    outline: red solid;
-    
-    
+/*setear nuestros archivos*/
+body {
+    box-sizing: border-box;
+    color: #303030;
+    margin: 0;
+    padding: 0;
 }
-.texto {
-    outline: black solid;
-    position: relative;
-    width: 350px;
-    bottom: -40px;
-    right: -130px;
+/*Clases generales*/
+.text-uppercase {
+    text-transform: uppercase;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+/*Clases para el header */
 
+header {
+    outline: 1px solid red;
+   /* overflow: auto;*/
+   height: 120px;
+   font-family: sans-serif;
 }
-.texto>a {
-    margin: 20px;
+
+.navbar {
+    outline: 1px solid maroon;
+    display: inline-block;
+    padding-left: 150px;
 }
+
 .logo {
-    outline: green solid;
-    width:100px;
-    height: 100px;
-    position:relative;
-    right: -1080px;
-    margin-left: 20px;
+   outline: 1px solid green;
+   display: inline-block;
+   width: 70px;
+   height: 80px;
+   float: right;
+   position: relative;
+   right: 100px;
+   bottom: 70px;
 }
 .logo>img {
-    width: 90px;
-    height: 90px;
-}
-.imagen>img {
-    width: 1350px;
-}
-.frase {
-    outline: blue solid;
-    width: 400px;
-    height: 50px;
-    position: relative;
-    bottom: 450px;
-    margin-left: 420px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 20px;
+    width: 100%;
 }
 
-.frase1 {
-    outline: black solid;
-    width: 800px;
-    height: 65px;
-    position: relative;
-    bottom: 420px;
-    margin-left:280px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 45px;
+ul {
+    outline: 1px solid blueviolet; 
+    display: inline-block;
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 150px;
 }
-.frase2 {
-    outline: blue solid;
-    width: 600px;
-    height: 35px;
-    position: relative;
-    bottom: 420PX;
-    margin-left: 350PX;
-    color: white;
-}
-.frase3 {
-    outline: black solid;
-    width: 150px;
-    height: 45px;
-    position: relative;
-    bottom: 350px;
-    margin-left: 560px;
-
+/* el elemento "li" es de tipo block*/ 
+/* se aplica display:inline-block al elemento "li" para alinear */
+li {
+    outline: 1px solid black;
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20px;
     
 }
-button {
-    color: white;
-    background: green;
-    width: 150px;
-    height: 45px;
+/*el ancla "a" es de tipo inline*/
+a {
+    outline: 1px solid red;
+    text-decoration: none;
+    font-size:18px; 
+    display: block;
+    width: auto;
+  
 }
-.rosado {
-    background: rgb(255, 138, 138);
-    width: 1350;
-    height: 650px;
-    position: relative;
-    bottom: 200px;
-    font-family: sans-serif;
-    color: white;
+/*section-uno*/
+.section {
+    outline: 
+    width: 100%;
+} 
+.section .fondo {
+    width: 100%;
 }
-.rosado>.title-text {
-    outline: black solid;
-    width: 200px;
-    height: 30px;
-    position: relative;
-    margin-left: 530px;
-    top: 100px;
-    font-size:40px;
-}
-.rosado>.parrafo-text {
-    outline: blue solid;
-    width: 600px;
-    height: 80px;
-    position: relative;
-    left: 350px;
-    top: 150px;
 
-}
-.rosado>.columna>img {
-    outline: black solid;
-    font-size: 30px;
-}
-   
+
+
