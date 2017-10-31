@@ -18,20 +18,25 @@ body {
 /*Clases para el header */
 
 header {
-    outline: 1px solid red;
    /* overflow: auto;*/
    height: 120px;
    font-family: sans-serif;
+   z-index: 1000;
+   margin: 0;
+   padding: 0;
+   position: 0;
+   background-color: white;
+ 
 }
 
 .navbar {
-    outline: 1px solid maroon;
+    
     display: inline-block;
     padding-left: 150px;
 }
 
 .logo {
-   outline: 1px solid green;
+   
    display: inline-block;
    width: 70px;
    height: 80px;
@@ -45,7 +50,7 @@ header {
 }
 
 ul {
-    outline: 1px solid blueviolet; 
+    
     display: inline-block;
     padding: 25px;
     text-transform: uppercase;
@@ -55,7 +60,7 @@ ul {
 /* el elemento "li" es de tipo block*/ 
 /* se aplica display:inline-block al elemento "li" para alinear */
 li {
-    outline: 1px solid black;
+    
     list-style: none;
     display: inline-block;
     width: 120px;
@@ -66,21 +71,137 @@ li {
 }
 /*el ancla "a" es de tipo inline*/
 a {
-    outline: 1px solid red;
+    
     text-decoration: none;
     font-size:18px; 
     display: block;
     width: auto;
+    color: black;
+    
   
 }
 /*section-uno*/
 .section {
-    outline: 
     width: 100%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    height: 600px;
+   /* margin-top: 10px;*/
+
 } 
-.section .fondo {
+.fondo {
     width: 100%;
 }
+.fondo .texto {
+    display: inline-block;
+    position: relative;
+    bottom: 550px;
+    color: #fff;
+}
+.texto .text-uno {
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+    
+}
+.texto .text-dos {
+    font-weight: 600;
+    font-size:55px;
+    position: relative;
+    top: 10px;
+}
+.texto .text-tres {
+    position: relative;
+    bottom: 25px;
+}
+.butom a {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    color: #fff;
+    
+}
 
-
-
+.fondo img {
+display: block;
+position: relative;
+width: 100%;
+height: 600px;
+bottom: 60px;
+}
+.butom {
+    width: 180px;
+    height: 40px;
+    position: relative;
+    bottom: 490px;
+    text-align: center;
+   /* margin-left: 100px;*/
+   left: 600px;
+   background-color: rgb(63, 252, 120)
+}
+/*services*/
+.services {
+    text-align: center;
+    height: 700px;
+    background-color: rgb(252, 134, 134);
+    color: #fff;
+}
+.parraf-uno {
+    display: inline-block;
+    width: 600px;
+    position: relative;
+    top: 100px;
+}
+.content {
+    width: 100%;
+    position: relative;
+    top: 100px;
+    font-family: sans-serif;
+}
+.content .col {
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+    width: 250px;
+    
+}
+.col img {
+    width: 200px;
+} 
+.parraf-uno h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+}
+.content h4 {
+    text-transform: uppercase;
+}
+#text-work {
+    text-align: center;
+}
+.descrip {
+    display: inline-block;
+    width: 700px;
+    position: relative;
+    top: 50px;
+}
+.descrip h2 {
+    font-size: 40px;
+}
+.laptop {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    
+}
+.laptop img {
+    display: inline-block;
+    width: 70%;
+    font-size: 80px;
+    position: relative;
+   
+}
